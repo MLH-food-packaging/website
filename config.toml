@@ -1,0 +1,54 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "MHL team"
+themesDir = "themes"
+theme = "hugo-hero-theme"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+    
+[params]
+  google_analytics_id=""
+
+  [params.homepage_meta_tags]
+    meta_description = "MHL is a (fake) business dedicated to removing single use packaging fromt he food market"
+    meta_og_title = "MHL company"
+    meta_og_type = "website"
+    meta_og_url = "#"
+    meta_og_image = ""
+    meta_og_description = "MHL is a (fake) business dedicated to removing single use packaging fromt he food marketusi"
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@__svmorris__"
+    meta_twitter_creator = "@__svmorris__"
+
+# [[menu.main]]
+# 	name = "Services"
+# 	url = "/services/"
+#     weight = 1
+#
+[[menu.main]]
+    name = "Product"
+    url = "/product/"
+    weight = 2
+#
+# [[menu.main]]
+#     name = "About"
+#     url = "/about/"
+#     weight = 3
+#
+#
+# [[menu.main]]
+#     name = "History"
+#     url = "/history/"
+#     weight = 3
+#
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
